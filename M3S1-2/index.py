@@ -1,0 +1,1 @@
+primer_nombre = input("ingrese su nombre: "); primer_apellido = input("ingrese su apellido: "); print("hola mundo en python, por:", primer_nombre, primer_apellido)

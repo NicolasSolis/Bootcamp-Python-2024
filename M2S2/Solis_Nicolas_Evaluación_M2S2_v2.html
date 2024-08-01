@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de evaluación Módulo 2, Sesión 2</title>
+</head>
+    <body>
+    <center><h1>Regístrate</h1>
+    <form action="Grax.html">
+    <div>
+        <label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required><br>
+    </div><br>
+    <div>
+        <label for="apellido"></label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required><br>
+    </div><br>   
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br>
+    </div><br>
+    <div>   
+        <label for="password"></label>
+        <input type="password" name="password" id="password" placeholder="Contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener por lo menos un número, una letra minúscula y mayúscula, y un mínimo 8 caracteres." required><br>
+    </div><br>
+        <button type="submit">Regístrate</button>
+    </form>
+    <p>¿Ya eres miembro? <strong>Inicia tu sesión</strong></p>
+    </center>
+    </body>
+</html>

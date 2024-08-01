@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table{
+    margin: auto;
+    width:25em;
+    font-weight: bold;
+}
+table #rojo{
+    background-color: red;
+}
+table #verde{
+    background-color:green
+    }
+table #gris{
+    background-color:gray
+    }
+table #cafe{
+    background-color: brown;
+    }
+table #azul{
+    background-color: blue;
+    }
+table #violeta{
+    background-color:violet;
+}
+table #rosado{
+    background-color:pink;
+}
+table #amarillo{
+    background-color:yellow;
+}
+table #turquesa{
+    background-color:turquoise;
+}
+table #naranjo{
+    background-color:orange;
+}
+table #purpura{
+    background-color:purple;
+}
+table #negro{
+    background-color:black;color: white;
+}

@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important
+}
+
+.navbar {
+    background-color: #051B54 !important;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-toggler-icon,
+#iniciosesion {
+    color: white !important;
+}
+
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#iniciosesion {
+    background-color: #FFFFFF33 !important;
+    border-radius: 2rem;
+}
+
+.btn-secondary {
+    color: #051B54;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.btn-outline-primary {
+    color: #051B54 !important;
+    border-color: #051B54 !important;
+}
+
+#jumbotron {
+
+    background-color: #62DAD3;
+    border-radius: 5px;
+}
+
+img {
+    min-height: 80%;
+    min-width: 90%;
+}
+
+form,
+.btn-outline-primary {
+    color: #051B54;
+    border-radius: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropdown {
+    color: #051B54 !important;
+}
+
+#formtotal {
+    max-width: 95%;
+    padding: 1%;
+    border-color: #051B54;
+    border-width: 1px;
+    border-radius: 1rem;
+    border-style: solid;
+}
+
+/* me robé este código y lo adapté un poco para la sombra */
+#formtotal:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* no entiendo cómo la mitad de esto funcionó, 
+simplemente lo dejé así pq me da miedo tocarlo. */

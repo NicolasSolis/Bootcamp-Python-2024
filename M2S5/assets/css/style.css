@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #6f42c1 !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.table {
+    margin: auto;
+    margin-top: 6%;
+    width: 80%;
+}
