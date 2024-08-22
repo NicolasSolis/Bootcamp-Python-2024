@@ -33,10 +33,10 @@ auto2 = Vehiculo('Balco', 50) """
     def get_color(self):
         return self.color """
 
-miCarro1 = Vehiculo('Negro', '20')
+""" miCarro1 = Vehiculo('Negro', '20')
 print (miCarro1.get_color())
 miCarro1.set_color('Blanco')
-print (miCarro1.get_color())
+print (miCarro1.get_color()) """
 
 #Colaboración objetos
 

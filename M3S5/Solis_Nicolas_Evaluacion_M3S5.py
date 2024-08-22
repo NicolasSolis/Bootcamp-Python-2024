@@ -8,4 +8,4 @@ vocales = 'aeiou'
 #iterar caracteres de palabra
 for i, letra in enumerate(palabra):
     if letra.lower() not in vocales:
-        print(f'La letra {letra} en la posición {i+1} es una consonante')
+        print(f'La letra {letra} en la posición (índice) {i} es una consonante')
