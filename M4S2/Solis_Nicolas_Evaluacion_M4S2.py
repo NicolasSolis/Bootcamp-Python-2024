@@ -1,5 +1,5 @@
 class Persona():
-    def __init__(self, nombre, apellido, genero, edad, altura, peso):
+    def __init__(self, nombre, apellido, genero, edad: int, altura, peso):
         self.nombre = nombre
         self.apellido = apellido
         self.genero = genero
@@ -37,17 +37,17 @@ class Persona():
         self.edad = edad
 
 #para persona 1
-persona_1 = Persona('Pedro', 'Vivas', 'Masculino', '20 años', '1.78 mts', '68 kg')
+persona_1 = Persona('Pedro', 'Vivas', 'Masculino', 20, '1.78 mts', '68 kg')
 
     #edad original persona 1
 edad_falsa = persona_1.get_edad()
-persona_1.set_edad('21')
+persona_1.set_edad(21)
 
-print('La edad de {} indicaba {} años antes de que lo arrestaran con un carnet falso, ahora es {} años.'
+print('La edad de {} indicaba {} años antes de que lo arrestaran con un carnet falso, ahora tiene {} años.'
     .format(persona_1.nombre, edad_falsa, persona_1.get_edad()))
 
 #para Persona 2
-persona_2 = Persona('Juan', 'Camargo', 'Masculino', '20 años', '1.8 mts', '75 kg')
+persona_2 = Persona('Juan', 'Camargo', 'Masculino', 20, '1.8 mts', '75 kg')
 
     #apellido original persona 2
 apellido_antiguo = persona_2.get_apellido()

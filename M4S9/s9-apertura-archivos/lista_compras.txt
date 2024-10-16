@@ -1,0 +1,39 @@
+Producto: Pan de Molde
+Precio: 1,500 CLP
+Stock: 25
+
+Producto: Leche Entera
+Precio: 950 CLP
+Stock: 40
+
+Producto: Café Instantáneo
+Precio: 3,800 CLP
+Stock: 15
+
+Producto: Azúcar 1kg
+Precio: 1,200 CLP
+Stock: 30
+
+Producto: Arroz 1kg
+Precio: 1,100 CLP
+Stock: 50
+
+Producto: Fideos Spaghetti
+Precio: 900 CLP
+Stock: 35
+
+Producto: Galletas de Chocolate
+Precio: 1,750 CLP
+Stock: 20
+
+Producto: Jugo Natural 1L
+Precio: 1,600 CLP
+Stock: 45
+
+Producto: Aceite Vegetal 1L
+Precio: 2,500 CLP
+Stock: 28
+
+Producto: Harina 1kg
+Precio: 1,350 CLP
+Stock: 40
